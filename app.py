@@ -12,8 +12,7 @@ app = Flask(__name__)
 @app.route('/index')
 def index():
     return render_template('index.html',
-                           topic=items["001"]["Topic"],
-                           type=items["001"]["Type"],
-                           description=items["001"]["Description"],
-                           image=items["001"]["Image"],
-                           price=items["001"]["Price"])
+                           topic=items["1"]["Card"],
+                           cat=items["1"]["Cat"],
+                           image=items["1"]["Image"],
+                           price=items["1"]["Price"])
