@@ -1,16 +1,1 @@
-{
-  "001": {
-    "Type": "Sprzedam",
-    "Topic": "Playstation 4",
-    "Description": "Nowy jak igla",
-    "Image": "https://image.ceneostatic.pl/data/article_picture/df/ce/0602-ec48-4167-a3b1-586680470ef0_large.jpg",
-    "Price": 500
-  },
-  "002": {
-    "Type": "Sprzedam",
-    "Topic": "Playstation 4",
-    "Description": "Nówka nie smigana",
-    "Image": "https://image.ceneostatic.pl/data/article_picture/df/ce/0602-ec48-4167-a3b1-586680470ef0_large.jpg",
-    "Price": 500
-  }
-}
+{"1": {"Cat": "Sprzedam", "Card": "Playstation 4", "Image": "https://image.ceneostatic.pl/data/article_picture/df/ce/0602-ec48-4167-a3b1-586680470ef0_large.jpg", "Price": 500}, "2": {"Cat": "Sprzedam", "Card": "Playstation 4", "Image": "https://image.ceneostatic.pl/data/article_picture/df/ce/0602-ec48-4167-a3b1-586680470ef0_large.jpg", "Price": 500}, "3": {"Cat": "Kupie", "Card": "Lotus", "Image": "https://media.geeksforgeeks.org/wp-content/uploads/20191213210710/Screenshot-1516.png", "Price": 1000}}
