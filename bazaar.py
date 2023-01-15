@@ -29,3 +29,9 @@ class Bazaar:
     def get_card_image(card_name, set_name):
         card_data = Card.where(name=card_name).where(set_name=set_name).all()
         return card_data[0].image_url
+
+    def delete_item(self, item_id):
+        current_data = self.data
+        del current_data[item_id]
+        with open('items.json', 'w') as self.items:
+            json.dump(current_data, self.items)
