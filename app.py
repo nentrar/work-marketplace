@@ -1,8 +1,8 @@
 from flask import Flask
 from flask import render_template
-from marketplace import Marketplace
+from bazaar import Bazaar
 
-magic = Marketplace()
+magic = Bazaar()
 items = magic.read_all_data()
 
 app = Flask(__name__)
