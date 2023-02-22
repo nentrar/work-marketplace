@@ -22,7 +22,7 @@ class Bazaar:
         }
         current_data = self.data
         current_data.update(new_item)
-        with open('items.json', 'w') as self.items:
+        with open('../items.json', 'w') as self.items:
             json.dump(current_data, self.items)
 
     @staticmethod
@@ -33,5 +33,5 @@ class Bazaar:
     def delete_item(self, item_id):
         current_data = self.data
         del current_data[item_id]
-        with open('items.json', 'w') as self.items:
+        with open('../items.json', 'w') as self.items:
             json.dump(current_data, self.items)
